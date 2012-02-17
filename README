@@ -11,7 +11,7 @@ falls below a certain value.
 Battery checks the first battery in the system only. All other batteries
 are ignored so far.
 
-This menulet is GPL'ed. Read the COPYING file.
+This application is GPL'ed. Read the COPYING file.
 All bugs reports should be sent to Andreas Schik <andreas@schik.de>.
 
 
@@ -39,7 +39,6 @@ o To build Battery simply do the following:
 
 o If you wish to run Battery without system tray support, build it like this:
 	nake trayicon=no
-
 
 o To install Battery run:
 	make [trayicon=no] install
