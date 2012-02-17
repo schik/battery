@@ -29,7 +29,7 @@ o Battery depends on HAL and DBus. Access to DBus is made vis GNUstep's DBusKit.
 
 o To use the system tray, Battery needs the TrayIconKit, which is available
   here:
-  <github repository>
+  https://github.com/schik/trayiconkit
 
 
 How to build Battery
