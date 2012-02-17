@@ -1,0 +1,52 @@
+Battery
+=======
+
+Introduction
+------------
+Battery displays the battery status on portable computers. For this pupose,
+the application will either place an icon into the system tray or use the app
+icon, depending on how you compile it.
+Battery will automatically pop up a notification if the battery's capacity
+falls below a certain value.
+Battery checks the first battery in the system only. All other batteries
+are ignored so far.
+
+This menulet is GPL'ed. Read the COPYING file.
+All bugs reports should be sent to Andreas Schik <andreas@schik.de>.
+
+
+Requirements
+------------
+o Battery has been developed and tested on GNU/Linux using the following
+  versions of GNUstep on Linux:
+
+gnustep-base	1.21
+gnustep-back	0.19
+
+o Note, that Battery will most probably not run on older versions of GNUstep.
+
+o Battery depends on HAL and DBus. Access to DBus is made vis GNUstep's DBusKit.
+
+o To use the system tray, Battery needs the TrayIconKit, which is available
+  here:
+  <github repository>
+
+
+How to build Battery
+--------------------
+o To build Battery simply do the following:
+	make
+
+o If you wish to run Battery without system tray support, build it like this:
+	nake trayicon=no
+
+
+o To install Battery run:
+	make [trayicon=no] install
+
+
+Additional information
+----------------------
+The application uses the GNOME applet 'battstat' for inspiration. This applet
+gave me the general direction on how to create the icon. See the 'gnome-applets'
+subproject of the GNOME project.
