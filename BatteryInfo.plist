@@ -1,0 +1,12 @@
+{
+    ApplicationDescription = "A GNUstep power management application.";
+    ApplicationIcon = "Battery000.tiff";
+    ApplicationName = Battery;
+    ApplicationRelease = 0.4.0;
+    Authors = ("Andreas Schik <andreas@schik.de>");
+    Copyright = "Copyright (C) 2007-2011 by Andreas Schik";
+    CopyrightDescription = "Released under GPL";
+    FullVersionID = 0.4.0;
+    URL = "http://www.andreasheppel.de";
+}
+

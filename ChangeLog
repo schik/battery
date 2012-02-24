@@ -1,0 +1,40 @@
+Version 0.4
+-----------
+
+New Features:
+
+- Battery is no longer a menulet for the Étoilé menu bar, but acts as a system
+  tray icon.
+- The system tray icon is created using the TrayIconKit framework.
+- Battery can be compiled without system tray support. In that case the app icon
+  is used as battery state indicator.
+- DBus is now accessed via GNUstep's DBusKit.
+- Notifications are sent to the desktop's notification service using DBus.
+- New icons in different sizes.
+
+Version 0.3 (never offcially released)
+--------------------------------------
+
+New Features:
+
+- The icon is implemented as NSImageView instead of as NSButton. The battery
+  state pops up as a tooltip window when the mouse hover over the image.
+
+Version 0.2 (never offcially released)
+--------------------------------------
+
+New Features:
+
+- Removed libacpi.[hc] in favour of DBus and HAL. This makes the menulet more
+  platform independent.
+
+
+Version 0.1 (never offcially released)
+--------------------------------------
+
+Initial version. Features:
+
+- Shows an icon displaying the battery percentage or an AC plug, depending
+  on whether the laptop runs on AC power or battery.
+- Shows an information panel with more details when clicking on the icon.
+- Depends upon C code from the wmacpi WindowMaker docklet (libacpi.[hc]).

@@ -1,0 +1,15 @@
+# Additional flags to pass to the preprocessor
+# ADDITIONAL_CPPFLAGS += 
+
+# Additional flags to pass to the Objective-C compiler
+ADDITIONAL_OBJCFLAGS += -Wall -g
+
+# Additional flags to pass to the C compiler
+ADDITIONAL_CFLAGS += -Wall -g
+
+# Additional include directories the compiler should search
+#ADDITIONAL_INCLUDE_DIRS += 
+
+# Additional LDFLAGS to pass to the linker
+ADDITIONAL_LDFLAGS += -lX11
+
