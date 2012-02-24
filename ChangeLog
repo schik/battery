@@ -9,6 +9,7 @@ New Features:
 - Battery can be compiled without system tray support. In that case the app icon
   is used as battery state indicator.
 - DBus is now accessed via GNUstep's DBusKit.
+- HAL has been replaced by UPower.
 - Notifications are sent to the desktop's notification service using DBus.
 - New icons in different sizes.
 
