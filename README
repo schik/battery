@@ -21,11 +21,12 @@ o Battery has been developed and tested on GNU/Linux using the following
   versions of GNUstep on Linux:
 
 gnustep-base	1.21
-gnustep-back	0.19
+gnustep-gui	0.19
 
 o Note, that Battery will most probably not run on older versions of GNUstep.
 
-o Battery depends on HAL and DBus. Access to DBus is made vis GNUstep's DBusKit.
+o Battery depends on UPower and DBus. Access to DBus is made vis GNUstep's
+  DBusKit.
 
 o To use the system tray, Battery needs the TrayIconKit, which is available
   here:
